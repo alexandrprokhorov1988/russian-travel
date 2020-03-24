@@ -1,0 +1,9 @@
+.footer__list:not(:last-of-type) {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list:not(:last-of-type) {
+    padding-bottom: 32px;
+  }
+}

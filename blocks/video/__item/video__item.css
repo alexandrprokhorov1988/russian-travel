@@ -1,0 +1,30 @@
+.video__item {
+  color: #FFFFFF;
+  position: relative;
+  text-align: left;
+}
+
+.video__item:not(:last-of-type) {
+  padding-right: 18px;
+}
+
+.video__item:hover .video__item-bg {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px ) {
+  .video__item {
+    max-width: 456px;
+  }
+}
+@media screen and (max-width: 768px ) {
+  .video__item {
+    max-width: 352px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .video__item:not(:last-of-type) {
+    padding-right: 0;
+    padding-bottom: 8px;
+  }
+}

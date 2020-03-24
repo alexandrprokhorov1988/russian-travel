@@ -1,0 +1,34 @@
+@import url(./__cover-bg/cover__cover-bg.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  margin-top: 102px;
+  text-align: center;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.cover:hover .cover__cover-bg {
+  opacity: .3;
+}
+
+@media screen and (max-width: 1024px ) {
+  .cover {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-top: 64px;
+  }
+}

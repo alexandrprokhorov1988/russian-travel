@@ -1,0 +1,3 @@
+.header__lang-list:not(:last-of-type) {
+  padding-right: 1.125rem;
+}

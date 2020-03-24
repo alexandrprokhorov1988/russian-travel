@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px ) {
+  .comments__content-subtitle {
+    padding-top: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments__content-subtitle {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

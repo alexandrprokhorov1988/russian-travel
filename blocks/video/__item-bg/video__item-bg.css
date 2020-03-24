@@ -1,0 +1,23 @@
+.video__item-bg {
+  opacity: 1;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
+  width: 100%;
+  z-index: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px ) {
+  .video__item-bg {
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 768px ) {
+  .video__item-bg {
+    height: 200px;
+  }
+}

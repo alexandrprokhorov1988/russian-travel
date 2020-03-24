@@ -1,0 +1,32 @@
+.place__paragraf {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.place__paragraf:not(:last-of-type) {
+  padding-bottom: 36px;
+}
+
+@media screen and (max-width: 768px ) {
+  .place__paragraf {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .place__paragraf{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .place__paragraf {
+    width: 100%;
+    padding-top: 24px;
+  }
+  .place__paragraf:not(:last-of-type) {
+    padding-bottom: 24px;
+  }
+}

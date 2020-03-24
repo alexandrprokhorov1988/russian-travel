@@ -1,0 +1,13 @@
+.comments__image {
+  border-radius: 50%;
+  width: 97px;
+}
+
+@media screen and (max-width: 768px ) {
+  .comments__image {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+}

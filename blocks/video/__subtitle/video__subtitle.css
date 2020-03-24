@@ -1,0 +1,13 @@
+.video__subtitle {
+  padding-top: 18px;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px ) {
+  .video__subtitle {
+    padding-top: 12px;
+  }
+}

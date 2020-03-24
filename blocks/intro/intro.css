@@ -1,0 +1,54 @@
+@import url(./__content-row/intro__content-row.css);
+@import url(./__content-row-text/intro__content-row-text.css);
+@import url(./__span-accent/intro__span-accent.css);
+@import url(./__text/intro__text.css);
+@import url(./__text-list/intro__text-list.css);
+@import url(./__title/intro__title.css);
+
+.intro {
+  width: 100%;
+  max-width: 683px;
+  color: #FFFFFF;
+  padding-left: 228px;
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1280px ) {
+  .intro {
+    padding-left: 148px;
+  }
+}
+
+@media screen and (max-width: 1024px ) {
+  .intro {
+    max-width: 692px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px ) {
+  .intro {
+    max-width: 720px;
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: calc(100% - 32px);
+    padding-left: 16px;
+    padding-top: 64px;
+  }
+}

@@ -1,0 +1,25 @@
+.comments__author {
+  padding-top: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px ) {
+  .comments__author {
+    padding-top: 17px;
+  }
+}
+
+@media screen and (max-width: 768px ) {
+  .comments__author {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    padding-top: 16px;
+  }
+}
