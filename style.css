@@ -1,14 +1,4 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(fonts/Inter-Regular.woff);
-  font-weight: normal;
-}
 
-@font-face {
-  font-family: 'Inter';
-  src: url(fonts/Inter-Bold.woff2);
-  font-weight: bold;
-}
 
 .page {
   max-width: 1440px;
@@ -76,6 +66,7 @@
 }
 
 .lead__title {
+  width: 100%;
   max-width: 782px;
   font-size: 96px;
   line-height: 93px;
@@ -113,7 +104,7 @@
   max-width: 683px;
   color: #FFFFFF;
   padding-left: 228px;
-  padding-top: 101px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -589,7 +580,7 @@
   }
 
   .cover {
-    max-width: 1024px;
+    max-width: 100%;
   }
 
   .cover__title {
@@ -620,7 +611,7 @@
   }
 
   .lead {
-    max-width: 768px;
+    max-width: 100%;
   }
 
   .lead__caption {
@@ -760,10 +751,6 @@
     padding-top: 24px;
   }
 
-  .cover {
-    max-width: 768px;
-  }
-
   .cover__title {
     max-width: 720px;
     left: calc((100% - 720px) / 2);
@@ -828,6 +815,7 @@
   .intro {
     max-width: calc(100% - 32px);
     padding-left: 16px;
+    padding-top: 64px;
   }
 
   .intro__title {
@@ -848,10 +836,11 @@
   }
 
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
     padding-right: 16px;
     padding-left: 16px;
     padding-top: 64px;
-    grid-gap: 8px;
+    grid-gap: 15px;
   }
 
   .places {
@@ -862,7 +851,7 @@
   .place {
     grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
     grid-row-gap: 0;
-    justify-items: center;
+    /*justify-items: center;*/
   }
 
   .place:not(:last-of-type) {
@@ -883,6 +872,7 @@
 
   .place__paragrafs {
     max-width: calc(100% - 32px);
+    padding-left: 16px;
   }
 
   .place__paragraf {
@@ -926,7 +916,7 @@
 
   .comments {
     margin-top: 64px;
-    max-width: 343px;
+    max-width: calc(100% - 32px);
   }
 
   .comments__content-title {
@@ -945,7 +935,6 @@
   }
 
   .cover {
-    width: 100%;
     margin-top: 48px;
   }
 
@@ -993,7 +982,7 @@
 @media screen and (max-width: 320px) {
 
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 284px));
+    grid-gap: 8px;
   }
 
   .place__image {
@@ -1012,12 +1001,7 @@
     left: 16px;
   }
 
-  .comments {
-    max-width: 288px;
-  }
-
   .cover {
-    max-width: 320px;
     margin-top: 64px;
   }
 
