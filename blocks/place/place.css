@@ -33,19 +33,11 @@
     grid-column-gap: 32px;
     grid-row-gap: 40px;
   }
-
-  .place:not(:last-of-type) {
-    padding-bottom: 85px;
-  }
 }
 
 @media screen and (max-width: 768px ) {
   .place {
     grid-column-gap: 28px;
-  }
-
-  .place:not(:last-of-type) {
-    padding-bottom: 72px;
   }
 }
 
@@ -68,14 +60,3 @@
     padding-bottom: 48px;
   }
 }
-
-/*@media screen and (max-width: 767px) {*/
-/*.place {*/
-/*grid-template-columns: repeat(auto-fit, minmax(-webkit-min-content, 100%));*/
-/*grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));*/
-/*grid-row-gap: 0;*/
-/*}*/
-/*.place:not(:last-of-type) {*/
-/*padding-bottom: 48px;*/
-/*}*/
-/*}*/
