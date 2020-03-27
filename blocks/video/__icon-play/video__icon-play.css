@@ -1,20 +1,21 @@
 .video__icon-play {
-  position: absolute;
-  left: 30px;
-  top: 30px;
   z-index: 2;
+  position: relative;
   width: 41px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 @media screen and (max-width: 768px ) {
   .video__icon-play {
-    top: 25px;
-    left: 25px;
+    padding-top: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .video__icon-play {
-    left: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
   }
 }

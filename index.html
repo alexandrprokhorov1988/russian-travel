@@ -7,7 +7,6 @@
   <meta name="keywords" content="html, css, javascript">
   <meta name="author" content="Александр Прохоров">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
@@ -27,20 +26,21 @@
   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
-      <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-      <picture>
-        <source media="(max-width: 320px)" srcset="images/__image-train-320.jpg">
-        <source media="(max-width: 375px)" srcset="images/__image-train-375.jpg">
-        <source media="(max-width: 768px)" srcset="images/__image-train-768.jpg">
-        <source media="(max-width: 1024px)" srcset="images/__image-train-1024.jpg">
-        <img src="images/__image-train-1440.jpg" alt="Картинка с поездом" class="lead__image">
-      </picture>
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <figure class="lead__figure">
+        <picture>
+          <source media="(max-width: 320px)" srcset="images/__image-train-320.jpg">
+          <source media="(max-width: 375px)" srcset="images/__image-train-375.jpg">
+          <source media="(max-width: 768px)" srcset="images/__image-train-768.jpg">
+          <source media="(max-width: 1024px)" srcset="images/__image-train-1024.jpg">
+          <img src="images/__image-train-1440.jpg" alt="Фото со спящим в поезде человеком" class="lead__image">
+        </picture>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
-      <div class="intro__content-row">
         <p class="intro__content-row-text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
           планируют
           провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
@@ -53,7 +53,6 @@
           которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы
           выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      </div>
       <ul class="intro__text-list">
         <li><p class="intro__text"><span class="intro__span-accent">Часовых поясов</span> 11</p></li>
         <li><p class="intro__text"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</p>
@@ -61,23 +60,23 @@
         <li><p class="intro__text"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</p>
         </li>
         <li><p class="intro__text"><span class="intro__span-accent">Природных заповедников</span> 105</p></li>
-        <li><p class="intro__text"><span class="intro__span-accent">Аэропортов 241</span></p></li>
+        <li><p class="intro__text"><span class="intro__span-accent">Аэропортов</span> 241</p></li>
       </ul>
     </section>
 
     <section class="photo-grid">
-      <img src="images/item1.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item2.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item3.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item4.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item5.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item6.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item7.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item8.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item9.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item10.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item11.jpg" alt="картинка" class="photo-grid__item">
-      <img src="images/item12.jpg" alt="картинка" class="photo-grid__item">
+      <img src="images/item1.jpg" alt="Вид в окно поезда." class="photo-grid__item">
+      <img src="images/item2.jpg" alt="Горы." class="photo-grid__item">
+      <img src="images/item3.jpg" alt="Собачка на стоге сена." class="photo-grid__item">
+      <img src="images/item4.jpg" alt="Лес." class="photo-grid__item">
+      <img src="images/item5.jpg" alt="Колесо жигуля." class="photo-grid__item">
+      <img src="images/item6.jpg" alt="Пляж." class="photo-grid__item">
+      <img src="images/item7.jpg" alt="Горы." class="photo-grid__item">
+      <img src="images/item8.jpg" alt="Знак пешехода и мороженое." class="photo-grid__item">
+      <img src="images/item9.jpg" alt="Горы." class="photo-grid__item">
+      <img src="images/item10.jpg" alt="Горы." class="photo-grid__item">
+      <img src="images/item11.jpg" alt="Горы." class="photo-grid__item">
+      <img src="images/item12.jpg" alt="Горы в тумане." class="photo-grid__item">
     </section>
 
     <section class="places">
@@ -87,7 +86,7 @@
           <p class="place__url-heading">URL</p>
           <a href="http://park-kosa.ru/" class="place__url">park-kosa.ru</a>
         </div>
-        <img src="images/place1.jpg" alt="картинка" class="place__image">
+        <img src="images/place1.jpg" alt="Куршская коса." class="place__image">
         <div class="place__paragrafs">
           <p class="place__paragraf">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
             спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -104,13 +103,13 @@
         <h3 class="place__title">Кольский</h3>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="https://nat-geo.ru/" class="place__url">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__url">National Geographic</a>
         </div>
-        <img src="images/place2.jpg" alt="картинка" class="place__image">
+        <img src="images/place2.jpg" alt="Кольский." class="place__image">
         <div class="place__paragrafs">
           <p class="place__paragraf">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
             юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-          <p class="place__paragraf">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
+          <p class="place__paragraf place__paragraf_theme_text-shadow">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
             Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
             Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
@@ -121,9 +120,9 @@
         <h3 class="place__title">Алтай</h3>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="https://ru-ru.facebook.com/" class="place__url">Facebook</a>
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__url">Facebook</a>
         </div>
-        <img src="images/place3.jpg" alt="картинка" class="place__image">
+        <img src="images/place3.jpg" alt="Алтай." class="place__image">
         <div class="place__paragrafs">
           <p class="place__paragraf">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать
             вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле
@@ -140,7 +139,7 @@
           <p class="place__url-heading">URL</p>
           <a href="https://vk.com/baikalmile" class="place__url">https://vk.com/baikalmile</a>
         </div>
-        <img src="images/place4.jpg" alt="картинка" class="place__image">
+        <img src="images/place4.jpg" alt="Зимний Байкал." class="place__image">
         <div class="place__paragrafs">
           <p class="place__paragraf">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый
             большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -157,7 +156,7 @@
           <p class="place__url-heading">URL</p>
           <a href="http://vodlozero.ru/" class="place__url">http://vodlozero.ru/</a>
         </div>
-        <img src="images/place5.jpg" alt="картинка" class="place__image">
+        <img src="images/place5.jpg" alt="Карелия." class="place__image">
         <div class="place__paragrafs">
           <p class="place__paragraf">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
             лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -170,11 +169,11 @@
     </section>
 
     <section class="video">
-      <h2 class="content-title">В глубины Земли и в дальний космос</h2>
+      <h2 class="content-title video__content-title">В глубины Земли и в дальний космос</h2>
       <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
         исследования</p>
       <div class="video__container">
-        <a href="#" class="video__item">
+        <a href="https://vimeo.com/81106671" class="video__item">
           <img src="images/__icon_play.png" alt="иконка проигрывателя" class="video__icon-play">
           <div class="video__info">
             <p class="video__duration">6:30</p>
@@ -183,7 +182,7 @@
           </div>
           <img src="images/item-bg1.jpg" alt="видео о камчатке" class="video__item-bg">
         </a>
-        <a href="#" class="video__item">
+        <a href="https://vimeo.com/290675450" class="video__item">
           <img src="images/__icon_play.png" alt="иконка проигрывателя" class="video__icon-play">
           <div class="video__info">
             <p class="video__duration">24:45</p>
@@ -201,38 +200,49 @@
         международных конкурсах</p>
       <div class="comments__container">
         <article class="comments__comment">
-          <img src="images/comments__image1.jpg" alt="фотография" class="comments__image">
-          <p class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
-            “наружу”…»</p>
+          <img src="images/comments__image1.jpg" alt="Виктор Лягушкин." class="comments__image">
+          <blockquote class="comments__blockquote">
+            <p class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто
+              выгляньте
+              “наружу”…»</p>
+          </blockquote>
           <p class="comments__author">Виктор Лягушкин</p>
         </article>
         <article class="comments__comment">
-          <img src="images/comments__image2.jpg" alt="фотография" class="comments__image">
-          <p class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески
-            Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в
-            конечном счёте наполняют его жизнью.»</p>
+          <img src="images/comments__image2.jpg" alt="Иван Хафизов." class="comments__image">
+          <blockquote class="comments__blockquote">
+            <p class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески
+              Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и
+              в
+              конечном счёте наполняют его жизнью.»</p>
+          </blockquote>
           <p class="comments__author">Иван Хафизов</p>
         </article>
         <article class="comments__comment">
-          <img src="images/comments__image3.jpg" alt="фотография" class="comments__image">
-          <p class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им
-            плохо, то ты сволочь и всё очернил.»</p>
+          <img src="images/comments__image3.jpg" alt="Сергей Максимишин." class="comments__image">
+          <blockquote class="comments__blockquote">
+            <p class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как
+              им
+              плохо, то ты сволочь и всё очернил.»</p>
+          </blockquote>
           <p class="comments__author">Сергей Максимишин</p>
         </article>
       </div>
     </section>
 
     <section class="cover">
-      <h3 class="cover__title">До Байкала «на собаках»</h3>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
-        электричках.</p>
-      <picture>
-        <source media="(max-width: 320px)" srcset="images/cover-bg-320.jpg">
-        <source media="(max-width: 375px)" srcset="images/cover-bg-375.jpg">
-        <source media="(max-width: 768px)" srcset="images/cover-bg-768.jpg">
-        <source media="(max-width: 1024px)" srcset="images/cover-bg-1024.jpg">
-        <img src="images/cover-bg-1440.jpg" class="cover__cover-bg" alt="фон с поездами">
-      </picture>
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+        <h3 class="cover__title">До Байкала «на собаках»</h3>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
+          электричках.</p>
+        <picture>
+          <source media="(max-width: 320px)" srcset="images/cover-bg-320.jpg">
+          <source media="(max-width: 375px)" srcset="images/cover-bg-375.jpg">
+          <source media="(max-width: 768px)" srcset="images/cover-bg-768.jpg">
+          <source media="(max-width: 1024px)" srcset="images/cover-bg-1024.jpg">
+          <img src="images/cover-bg-1440.jpg" class="cover__cover-bg" alt="Фото заката на железнодорожной станции">
+        </picture>
+      </a>
     </section>
   </main>
   <footer class="footer">

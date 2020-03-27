@@ -5,6 +5,7 @@
   font-weight: normal;
   padding-bottom: 78px;
   margin: 0;
+  padding-top: 48px;
 }
 
 @media screen and (max-width: 767px) {
@@ -13,5 +14,6 @@
     line-height: 23px;
     max-width: 288px;
     padding-bottom: 32px;
+    padding-top: 8px;
   }
 }

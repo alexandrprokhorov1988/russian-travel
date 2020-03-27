@@ -1,23 +1,34 @@
 .video__item-bg {
-  opacity: 1;
+  opacity: .5;
   -webkit-transition: opacity .5s ease-out;
   -o-transition: opacity .5s ease-out;
   transition: opacity .5s ease-out;
-  width: 100%;
   z-index: 1;
   -o-object-fit: cover;
   object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 583px;
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 5px;
 }
 
 @media screen and (max-width: 1024px ) {
   .video__item-bg {
-    height: 288px;
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px ) {
   .video__item-bg {
-    height: 200px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 375px ) {
+  .video__item-bg {
+    max-width: 343px;
   }
 }

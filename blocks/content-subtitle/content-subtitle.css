@@ -8,6 +8,12 @@
   padding-top: 48px;
 }
 
+@media screen and (max-width: 1023px) {
+  .content-subtitle {
+    padding-top: 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .content-subtitle {
     font-size: 16px;

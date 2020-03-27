@@ -1,7 +1,9 @@
 .comments__author {
   padding-top: 24px;
-  font-weight: bold;
+  font-weight: 900;
   margin: 0;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 1024px ) {
@@ -21,5 +23,12 @@
     -ms-grid-row-align: center;
     align-self: center;
     padding-top: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 375px ) {
+  .comments__author {
+    line-height: 22px;
   }
 }

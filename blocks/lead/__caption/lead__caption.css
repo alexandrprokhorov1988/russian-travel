@@ -9,10 +9,21 @@
   align-self: flex-start;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  text-align: left;
+}
+@media screen and (max-width: 1279px ) {
+  .lead__caption {
+    padding-top: 16px;
+  }
 }
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 1023px ) {
   .lead__caption {
     padding-left: 16px;
+  }
+}
+@media screen and (max-width: 768px ) {
+  .lead__caption {
+    padding-top: 8px;
   }
 }

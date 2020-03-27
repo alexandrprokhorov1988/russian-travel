@@ -1,0 +1,12 @@
+@media screen and (min-width: 425px) and (max-width: 1023px) {
+  .video__content-title {
+    max-width: 425px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .video__content-title {
+    max-width: 320px;
+  }
+}

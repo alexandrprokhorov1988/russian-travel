@@ -1,9 +1,12 @@
 @import url(./__cover-bg/cover__cover-bg.css);
+@import url(./__link/cover__link.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
 
 .cover {
   max-width: 1184px;
+  width: 100%;
+  height: 594px;
   margin: 0 auto;
   margin-top: 102px;
   text-align: center;
@@ -12,23 +15,44 @@
 }
 
 .cover:hover .cover__cover-bg {
-  opacity: .3;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1280px ) {
+  .cover {
+    height: 562px;
+  }
 }
 
 @media screen and (max-width: 1024px ) {
   .cover {
     max-width: 100%;
+    height: 562px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover {
     margin-top: 48px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .cover {
+    height: 272px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover {
+    height: 272px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     margin-top: 64px;
+    height: 216px;
   }
 }

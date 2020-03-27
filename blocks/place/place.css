@@ -1,5 +1,6 @@
 @import url(./__image/place__image.css);
 @import url(./__paragraf/place__paragraf.css);
+@import url(./__paragraf/_theme/place__paragraf_theme_text-shadow.css);
 @import url(./__paragrafs/plcae__paragrafs.css);
 @import url(./__title/place__title.css);
 @import url(./__url/place__url.css);

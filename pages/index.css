@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/content-subtitle/content-subtitle.css);
